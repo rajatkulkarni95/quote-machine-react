@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_container {
+  max-width: 50vw;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 60px 80px 40px;
+}
+
+.quote_symbol {
+  font-size: 3.5rem;
+}
+
+.quote_text {
+  font-size: 2rem;
+}
+
+.quote_author {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.quoteBtn {
+  float: right;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  padding: 10px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
